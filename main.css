@@ -1,0 +1,16 @@
+#pitch {
+
+	background-image: url('image/images.jpg');
+	background-repeat: no-repeat; 
+	padding:140px 0px;
+	background-size: cover;
+	background-position: center;
+}
+.container .jumbotron
+.container-fluid .jumbtron{
+	border-radius: 0px;
+}
+
+#span {
+	background-color:"red";
+}

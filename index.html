@@ -1,16 +1,55 @@
-<!DOCTYPE html>
 <html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width initial-scale=1">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/main.css">
-		<title>Introduction to Bootstrap</title>
+		<title>Introduction To Bootstrap</title>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
 	</head>
-	<body>
-		<h1>Bootstrap 101</h1>
-		<div class="background"></div>
-		<script src="js/jquery-1.11.3.js"></script>
-		<script src="js/bootstrap.js"></script>
-	</body>
+		<body>
+			<div class="container-fluid"> 
+				<section class="row text-center" id="pitch">
+					<h1><strong>I build the future, and it is awesome!</strong></h1> 
+					<a href="#works" class="btn btn-success">Checkout my project</a>
+
+				</section>
+			</div>
+
+			<section class="row text-center">
+				<div class="text-center">
+					<h2>My Projects</h2>
+				</div>
+				<div>
+					<button type="Search Projects here" class="btn btn-default-lg">
+						<a href="#" class="btn btn-info btn-lg">Search Project Here</a>
+					</button>
+				</div>	
+			</section>
+					
+			<div class="container"> 
+				<section class ="row">
+					<div id ="project1" class="col-sm-4 col-lg-4">
+						<img src="http://thefifthcolumnnews.com/wp-content/uploads/2015/03/320_worldbank-logo.jpg"alt="world bank app" class="img-responsive"></img>
+							<h5> We provide solutions to web development - Desktop systems around the globe. Click to download</h5>
+						<a href="http://thefifthcolumnnews.com/wp-content/uploads/2015/03/320_worldbank-logo.jpg"class="btn btn-default-lg">View project</a>
+				    </div>
+
+					<div class="col-sm-4 col-lg-4"> 
+						<img src="http://ecx.images-amazon.com/images/I/41lMMOq5PoL._SY300_.jpg"alt="NASA air drone strike" class="img-responsive"></img>
+						<h5> We provide solutions to web development - Desktop systems around the globe. Click to download
+						<a href="http://ecx.images-amazon.com/images/I/41lMMOq5PoL._SY300_.jpg">View project</a>
+					</div>
+
+					<div class="col-sm-4 col-lg-4"> 
+						<img src="https://matrixworldhr.files.wordpress.com/2011/12/sad-presjednic48dki-logo.png"alt="US logo" class="img-responsive"></img>
+						<h5> We provide solutions to web development - Desktop systems around the globe. Click to download
+						<a href="https://matrixworldhr.files.wordpress.com/2011/12/sad-presjednic48dki-logo.png"class="btn btn-default-lg">View project</a>
+					</div>
+				</section>
+				
+				
+			<script src="jquery-1.11.3.js"></script>
+			<script src="js/jqwork.js"></script>
+			<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		</body>
 </html>
