@@ -1,16 +1,25 @@
 #pitch {
 
-	background-image: url('image/images.jpg');
+	background-image: url('http://thumbs.dreamstime.com/x/eagle-looking-down-perch-8762091.jpg');
 	background-repeat: no-repeat; 
-	padding:140px 0px;
+	padding:150px 10px;
 	background-size: cover;
 	background-position: center;
+	font-family: Volkhov;
+	font-color:red;
+	font-size: 40;
+
 }
 .container .jumbotron
 .container-fluid .jumbtron{
 	border-radius: 0px;
 }
 
-#span {
+#spman {
 	background-color:"red";
+}
+h1 {
+		font-size: 60;
+		font-color:red;n
+
 }
