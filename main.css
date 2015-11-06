@@ -10,16 +10,34 @@
 	font-size: 40;
 
 }
+
 .container .jumbotron
 .container-fluid .jumbtron{
 	border-radius: 0px;
+
 }
 
-#spman {
+#span {
 	background-color:"red";
 }
-h1 {
+#pitch h1 {
 		font-size: 60;
-		font-color:red;n
+		color:#fffccc;
+	}
+
+#footer{
+	background-color:red;
+	font-style: Alex Brush;
+	font-color: black;
+	font-size: 30px;
+	text-align: center;
+}
+ul{
+
+	background-color: purple;
+	font-family: Magnus Cederholm; 
+	font-weight: 100%;
+	font-size: 20;
+}
 
 }

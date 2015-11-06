@@ -1,23 +1,48 @@
 //Check if the document has loaded
 $(document).ready(function(){
 
-		// $("h1").mouseenter(function()
-		// 	{
-		// 	// $(this).fadeOut().fadeIn();
+		$("h1").mouseenter(function()
+			{
+			// $(this).fadeOut().fadeIn();
 
-		// $(this).toggle(1000).toggle(1000);
-		// 	});//end
+		$(this).toggle(1000).toggle(1000);
+			});//end
 
-		// $("#project1 img").mouseenter(function()
-		// 	{
-		// 		$("#project1 h5").hide(1000);
+		$("#project1 img").mouseenter(function()
+			{
+				$("#project1 h5").hide(1000);
 
-		// 	});
+			});
 		
 		$("#project1 img").mouseleave(function()
 			{
 				$("#project1 h5").show(1000);	
 			});
+
+		$("#project2 img").mouseenter(function()
+			{
+				$("#project2 h5").hide(1000);
+
+			});
+		
+		$("#project2 img").mouseleave(function()
+			{
+				$("#project2 h5").show(1000);	
+			});
+		
+		$("#project3 img").mouseenter(function()
+			{
+				$("#project3 h5").hide(1000);
+
+			});
+		
+		$("#project3 img").mouseleave(function()
+			{
+				$("#project3 h5").show(1000);	
+			});
+
+
+
 //Some people represent the event parameter as 'e'
 //this is a naming shortcut
 		$('#contact-form').on('submit', function(e){
@@ -57,10 +82,13 @@ $("#contact-form").validate({
       email: "Your email address must be in the format of name@domain.com"
     }
   }
+
+
 });
 
-
-
+$("#").click(function(){
+    $("#Home").slideDown();
+});
 
 
 
