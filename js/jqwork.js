@@ -5,43 +5,34 @@ $(document).ready(function(){
 			{
 			// $(this).fadeOut().fadeIn();
 
-		$(this).blink(5000).blink(5000);
+		$(this).toggle(1000).toggle(1000);
 			});//end
 
 		$("#project1 img").mouseenter(function()
 			{
-				$("#project1 h5").hide(5000);
+				$("#project1 h5").hide(1000);
 
 			});
 		
-		$("#button").click(function(){
-
-			$("#activity").slideDown("slow");
-
-
-			)};
-
-
-
 		$("#project1 img").mouseleave(function()
 			{
-				$("#project1 h5").show(5000);	
+				$("#project1 h5").show(1000);	
 			});
 
 		$("#project2 img").mouseenter(function()
 			{
-				$("#project2 h5").hide(5000);
+				$("#project2 h5").hide(1000);
 
 			});
 		
 		$("#project2 img").mouseleave(function()
 			{
-				$("#project2 h5").show(5000);	
+				$("#project2 h5").show(1000);	
 			});
 		
 		$("#project3 img").mouseenter(function()
 			{
-				$("#project3 h5").hide(5000);
+				$("#project3 h5").hide(1000);
 
 			});
 		
@@ -99,31 +90,6 @@ $("#").click(function(){
     $("#Home").slideDown();
 });
 
-githubReposUrl = "https://api.github.com/users/wagah/repos"
-$.get(githubReposUrl, function(repositories){
-// pass data objects
-projectListTemplate = '';
-projectListTemplate += '<ul>';
-
-repositories.forEach(function(repository){
-	projectListTemplate += '<li>';
-		projectListTemplate += '<h2><a href="'+repository.html_url +'">' + repository.name +'<a/></h2>';
-		projectListTemplate += '<p>' + repository.descripion +'</p>';
-		projectListTemplate += '<a href="#">Teams working on project</a>'; 
-		projectListTemplate += '</li>';
-	});
-
-projectListTemplate += '</ul>';
 
 
-	// projectListTemplate= '<ul>'
-	// 						+'<li>'
-	// 							+'<h2><a href="#">Introduction to bootstrap<a/></h2>'
-	// 							+'<p>My project descripion</p>'
-	// 							+'<a href="#">Teams working on project</a>'
-	// 						+'</li>'
-	// 					+'</ul>';
-$("#open-source-content").html(projectListTemplate);
-
-	});
 });
